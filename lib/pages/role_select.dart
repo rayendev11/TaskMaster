@@ -34,7 +34,7 @@ class RoleSelect extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => SecondPage()),
                 );
               },
-              child: Text('Mode individuel', style: TextStyle(fontSize: 16,color: Colors.white)),
+              child: Text('Mode visiteur', style: TextStyle(fontSize: 16,color: Colors.white)),
             ),
             SizedBox(height: 40),
             //admin button
