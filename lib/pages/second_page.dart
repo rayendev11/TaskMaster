@@ -305,4 +305,5 @@ class Task {
   String getDetails() {
     return 'Task: $title\nDescription: $description\nDue: ${dueDate.toLocal().toString()}\nPriority: ${priority ?? 'Not set'}\nCompleted: ${isDone ? 'Yes' : 'No'}';
   }
+  /* ada */
 }
