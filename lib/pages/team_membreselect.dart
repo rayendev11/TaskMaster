@@ -7,9 +7,11 @@ class TeamMembreselect extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('teammembre select page'),
         centerTitle: true,
+        backgroundColor: Colors.white,
       ),
       body: Center(
         child: Column(

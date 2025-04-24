@@ -53,9 +53,11 @@ class _HomePageState extends State<VisitorPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.white,
         appBar: AppBar(
           title: Text("visitor page"),
           centerTitle: true,
+          backgroundColor: Colors.white,
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: createNewTask,

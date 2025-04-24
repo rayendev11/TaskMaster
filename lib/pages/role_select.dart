@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app_pfa/pages/second_page.dart';
+
 import 'package:todo_app_pfa/pages/socity_role.dart';
+import 'package:todo_app_pfa/pages/visitor_page.dart';
 /* import 'package:todo_app_pfa/pages/visitor_page.dart'; */
 
 class RoleSelect extends StatelessWidget {
@@ -13,6 +14,8 @@ class RoleSelect extends StatelessWidget {
       appBar: AppBar(
         title: Text('role select page'),
         centerTitle: true,
+        elevation: 0,
+        backgroundColor: Colors.white,
       ),
       body: Center(
         child: Column(
@@ -31,7 +34,7 @@ class RoleSelect extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => SecondPage()),
+                  MaterialPageRoute(builder: (context) => VisitorPage()),
                 );
               },
               child: Text('Mode visiteur', style: TextStyle(fontSize: 16,color: Colors.white)),
