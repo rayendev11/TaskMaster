@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app_pfa/pages/role_select.dart';
 
+class AuthPage extends StatefulWidget {
+  const AuthPage({super.key});
 
+  @override
+  State<AuthPage> createState() => _AuthPageState();
+}
 
-class AuthPage extends StatelessWidget {
-  const AuthPage({super.key});  
+class _AuthPageState extends State<AuthPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,10 +22,9 @@ class AuthPage extends StatelessWidget {
                 // Logo
                 Image.asset(
                   'assets/logo.png', // Add your logo image in assets and declare it in pubspec.yaml
-                  
                 ),
                 SizedBox(height: 16),
-                // Title                              
+                // Title
 
                 // Email TextField
                 TextField(
@@ -51,8 +54,6 @@ class AuthPage extends StatelessWidget {
                 // Login Button
                 ElevatedButton(
                   onPressed: () {
-                    
-
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => RoleSelect()),

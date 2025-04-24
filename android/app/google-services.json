@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "632425363793",
+    "project_id": "pfa-taskmaster",
+    "storage_bucket": "pfa-taskmaster.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632425363793:android:b600ab3fa64190e9583b70",
+        "android_client_info": {
+          "package_name": "com.example.todo_app_pfa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYmDy6mVlv44Xb6KsTE1JtJilF9tHQHHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
